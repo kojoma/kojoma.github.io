@@ -1,0 +1,34 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+title = "Masaru Kojo"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+
+[params]
+    author = "Masaru Kojo"
+    avatar = "avatar.jpeg"
+    favicon = "favicon.ico"
+    publicationYear = "2020"
+
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "blog"
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    url = "https://note.com/kojoma"
+    weight = 10
+
+[[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/kojoma"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:masaru.kojo@gmail.com"
+    weight = 40
