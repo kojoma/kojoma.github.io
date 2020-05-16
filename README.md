@@ -1,8 +1,11 @@
 # kojoma.github.io
 
-## How to write site
+## Usage
 
-1. `git clone git@github.com:kojoma/kojoma.github.io.git` (if not yet)
-2. `git submodule init`
-3. `git submodule update`
+1. `brew install hugo`
+1. `git clone git@github.com:kojoma/kojoma.github.io.git`
+1. `cd kojoma.github.io`
+1. `git submodule init`
+1. `git submodule update`
+1. `hugo server -D`
 
