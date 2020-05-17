@@ -17,7 +17,7 @@ hasCJKLanguage = true
 
 [[menu.main]]
     identifier = "blog"
-    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    pre = "<i class='fa fa-book-open fa-lg'></i>"
     url = "https://note.com/kojoma"
     weight = 10
 
@@ -25,6 +25,12 @@ hasCJKLanguage = true
     identifier = "github"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/kojoma"
+    weight = 20
+
+[[menu.main]]
+    identifier = "privacy"
+    pre = "<i class='fas fa-lock'></i>"
+    url = "/privacy/ja/"
     weight = 30
 
 [[menu.main]]
