@@ -17,25 +17,31 @@ googleAnalytics = "G-QHTW5FNKMJ"
     taxonomy = ["JSON", "HTML"]
 
 [[menu.main]]
+    identifier = "resume"
+    pre = "<i class='fa fa-user fa-lg'></i>"
+    url = "https://gist.github.com/kojoma/2c640568481e8b3eb220eda1902cd958"
+    weight = 10
+
+[[menu.main]]
     identifier = "blog"
     pre = "<i class='fa fa-book-open fa-lg'></i>"
     url = "https://note.com/kojoma"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/kojoma"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     identifier = "privacy"
     pre = "<i class='fas fa-lock'></i>"
     url = "/privacy/ja/"
-    weight = 30
+    weight = 40
 
 [[menu.main]]
     identifier = "email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:masaru.kojo@gmail.com"
-    weight = 40
+    weight = 50
