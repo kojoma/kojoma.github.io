@@ -4,7 +4,7 @@ title = "Masaru Kojo"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
-googleAnalytics = "G-QHTW5FNKMJ"
+googleAnalytics = "UA-156076878-1"
 
 [params]
     author = "Masaru Kojo"
